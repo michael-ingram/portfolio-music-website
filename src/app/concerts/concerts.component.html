@@ -1,0 +1,45 @@
+<!--<app-loader></app-loader>-->
+<app-header></app-header>
+
+
+<div class="backgro_mh">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heding">
+          <h2>Upcoming Concerts</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- upcoming -->
+<div id="upcoming" class="upcoming">
+  <div class="container-fluid padding_left3">
+    <div class="row display_boxflex">
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+        <div class="box_text">
+          <div class="titlepage">
+            <h2>Upcoming Concerts</h2>
+          </div>
+          <ul *ngFor = "let concert of concerts">
+            <li *ngIf="guest">{{concert.date}}<br> {{concert.venue}}, {{concert.city}}, {{concert.state}}<br> {{concert.time}} with {{concert.guests}}</li>
+            <li *ngIf="!guest">{{concert.date}}<br> {{concert.venue}}, {{concert.city}}, {{concert.state}}<br> {{concert.time}} Solo Act</li>
+            <br>
+          </ul>
+          <a routerLink="/">Back To Home</a>
+        </div>
+      </div>
+
+      <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 border_right">
+        <div class="upcomimg">
+          <figure><img src="assets/images/sax_photo_v2.jpg" alt="#"/></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end upcoming -->
+
+<app-footer></app-footer>
