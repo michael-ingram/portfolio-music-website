@@ -5,7 +5,7 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #f7da76;
+     background: #12cfe2;
      float: left;
      min-height: 40px;
      padding: 5px 0;
@@ -58,7 +58,7 @@
 }
  .mean-container .mean-nav ul li a {
      border-bottom: 1px solid #ccc;
-     color: #f7da76;
+     color: #12cfe2;
      display: block;
      float: left;
      font-size: 12px;
@@ -71,7 +71,7 @@
      width: 90%;
 }
  .mean-container .mean-nav ul li a:hover {
-     color: #e0a800;
+     color: #fff;
 }
  .mean-container .mean-nav ul li li a {
      width: 80%;
@@ -153,14 +153,14 @@
 }
  @media (max-width: 767px) {
 .mean-container .mean-nav ul li.active a {
-color: #e0a800;
+color: #F3FDFE;
 background: transparent;
 border-radius: 0;
 
 }
 
 .mean-container .mean-nav ul li a:hover {
-    color: #e0a800;
+    color: #F3FDFE;
 }
 
 }

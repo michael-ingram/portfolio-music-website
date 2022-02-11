@@ -18,8 +18,8 @@ export class ConcertsComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     const show: Concert = {
-      date: 'February 3rd, 2022',
-      time: '7pm',
+      date: 'March 2nd, 2022',
+      time: '9pm',
       venue: 'Spur Bar and Grill',
       city: 'Park City',
       state: 'UT',
@@ -29,7 +29,7 @@ export class ConcertsComponent implements OnInit, OnDestroy {
     this.concerts.push(show);
 
     const show2: Concert = {
-      date: 'March 2nd, 2022',
+      date: 'March 30th, 2022',
       time: '9pm',
       venue: 'Spur Bar and Grill',
       city: 'Park City',
@@ -40,12 +40,12 @@ export class ConcertsComponent implements OnInit, OnDestroy {
     this.concerts.push(show2);
 
     const show3: Concert = {
-      date: 'March 30th, 2022',
-      time: '9pm',
-      venue: 'Spur Bar and Grill',
-      city: 'Park City',
+      date: 'May 7th, 2022',
+      time: '4pm',
+      venue: 'Echo Rv Resort',
+      city: 'Coalville',
       state: 'UT',
-      guests: 'Skylar Geer'
+      guests: 'Skylar Geer Band'
     }
     show3.guests !== ''? this.guest = true : this.guest = false;
     this.concerts.push(show3);

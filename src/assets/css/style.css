@@ -834,7 +834,7 @@
      font-size: 12px;
 }
 .menu-area-main li.active a {
-     color: #f7da76;
+     color: #12cfe2;
      background: black;
      border-radius: 17px;
      }
@@ -858,13 +858,13 @@
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #f7da76;
+     color: #0ea6b5;
      text-transform: uppercase;
      transition: all 0.3s ease-in;
 }
 
  .main-menu ul>li a:hover {
-color: #f7da76;
+color: #12cfe2;
 background: black;
 border-radius: 17px;
 transition: all 0.3s ease-in;
@@ -974,7 +974,7 @@ transition: all 0.3s ease-in;
 }
 
  .header-top {
-     background:url(../images/vinyl-records-wallpaper.jpg);
+     background:url(../images/record-player-background.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-bottom: 50px;
@@ -1001,15 +1001,13 @@ transition: all 0.3s ease-in;
   .text-bg span {
      font-size: 80px;
 line-height: 80px;
-color: #f7da76;
-    -webkit-text-stroke-width: 2px;
+color: #12cfe2;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 text-transform: uppercase;
   }
  .text-bg h1 {
     color: black;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #f7da76;
    font-family: 'Dancing Script', cursive;
 padding-top: 20px;
 font-size: 150px;
@@ -1172,7 +1170,7 @@ margin-top: 90px;
  .about .about-box a {
      font-size: 16px;
 border: #000 solid 1px;
-background-color: #000;
+background-color: #0ea6b5;
 color: #fff;
 padding: 9px 0px;
 max-width: 171px;
@@ -1225,7 +1223,7 @@ border-radius: 30px;
  .box_text a {
     font-size: 16px;
 border: #000 solid 1px;
-background-color: #000;
+background-color: #0ea6b5;
 color: #fff;
 padding: 9px 0px;
 max-width: 171px;
@@ -1273,7 +1271,7 @@ margin-top: 90px;
  .Gallery_text a {
     font-size: 16px;
 border: #000 solid 1px;
-background-color: #000;
+background-color: #0ea6b5;
 color: #fff;
 padding: 9px 0px;
 max-width: 171px;
@@ -1355,7 +1353,7 @@ ul.icon_hu li {padding: 10px 3px; display: inline-block;}
 }
  .contact_bg .titlepage h2 {
      padding: 0px;
-     color: #f7da76;
+     color: #12cfe2;
 }
 .contact_bg {
     max-width: 677px;
@@ -1428,7 +1426,7 @@ padding-bottom: 20px;
      padding: 20px 35px;
 }
 
-.border_top {border-top: #f7da76 solid 1px;}
+.border_top {border-top: #12cfe2 solid 1px;}
  .news {
     padding: 35px 0px 50px 0px;
 max-width: 71%;
@@ -1474,14 +1472,14 @@ ul.loca {
 
 
  ul.loca li {
-     color: #f7da76;
+     color: #12cfe2;
     padding: 0px 30px;
     font-size: 18px;
 
 }
  ul.loca li a {
      padding-right: 16px;
-     color: #f7da76;
+     color: #12cfe2;
      margin-top: 4px;
 }
 
@@ -1503,7 +1501,7 @@ flex-wrap: wrap;
  ul.social_link li a  {
     font-size: 24px;
 color: #161616;
-background: #f7da76;
+background: #12cfe2;
 border-radius: 80px;
 display: flex;
 align-items: center;
@@ -1520,21 +1518,21 @@ justify-content: center;
      padding: 23px 0px;
 
      margin-top: 55px;
-     border-top: #f7da76 solid 1px;
+     border-top: #12cfe2 solid 1px;
 
 }
  .copyright p {
-     color: #f7da76;
+     color: #12cfe2;
      font-size: 18px;
      line-height: 28px;
      text-align: center;
 
 }
  .copyright a {
-     color: #f7da76;
+     color: #12cfe2;
 }
  .copyright a:hover {
-     color: #e0a800 ;
+     color: #fff ;
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
@@ -1542,7 +1540,7 @@ justify-content: center;
 
 .contineer_page .header {background: black; padding-bottom: 27px;     position: inherit;}
 
-.backgro_mh {background: #f7da76; }
+.backgro_mh {background: #12cfe2; }
 .heding h2 {
      color: black;
 font-size: 60px;
