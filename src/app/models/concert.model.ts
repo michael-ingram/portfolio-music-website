@@ -1,8 +1,9 @@
 export interface Concert {
+  id?: string;
   date: string;
   time: string;
   venue: string;
   city: string;
   state: string;
-  guests: string;
+  guest: string;
 }

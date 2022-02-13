@@ -24,8 +24,9 @@
             <h2>Upcoming Concerts</h2>
           </div>
           <ul *ngFor = "let concert of concerts">
-            <li *ngIf="guest">{{concert.date}}<br> {{concert.venue}}, {{concert.city}}, {{concert.state}}<br> {{concert.time}} with {{concert.guests}}</li>
-            <li *ngIf="!guest">{{concert.date}}<br> {{concert.venue}}, {{concert.city}}, {{concert.state}}<br> {{concert.time}} Solo Act</li>
+            <li >{{concert.date}}<br> {{concert.venue}}, {{concert.city}}, {{concert.state}}<br> {{concert.time}} with {{concert.guest}}</li>
+<!--            <li ><button (click)="updateShow(concert.id, concert.date, concert.time, concert.venue, concert.city, concert.state, concert.guest)">Update</button></li>-->
+            <li *ngIf="isAdmin"><button (click)="deleteShow(concert.id)" class="btn btn-primary delete-Btn">Delete</button></li>
             <br>
           </ul>
           <a routerLink="/">Back To Home</a>
@@ -41,5 +42,42 @@
   </div>
 </div>
 <!-- end upcoming -->
+
+
+<div *ngIf="isAdmin" class="concert-crud">
+  <form [formGroup]="concertForm">
+    <fieldset>
+      <legend>New Show Info</legend>
+      <div class="form-field">
+        <label class="date-label">Date:</label>
+        <input name="date" formControlName="date" class="form-control date-input">
+      </div>
+      <div class="form-field">
+        <label class="time-label">Time</label>
+        <input name="time" formControlName="time" class="form-control time-input">
+      </div>
+      <div class="form-field">
+        <label class="venue-label">Venue</label>
+        <input name="venue" formControlName="venue" class="form-control venue-input">
+      </div>
+      <div class="form-field">
+        <label class="city-label">City</label>
+        <input name="city" formControlName="city" class="form-control city-input">
+      </div>
+      <div class="form-field">
+        <label class="state-label">State</label>
+        <input name="state" formControlName="state" class="form-control state-input">
+      </div>
+      <div class="form-field">
+      <label class="guest-label">Guest</label>
+      <input name="guest" formControlName="guest" class="form-control guest-input">
+    </div>
+    </fieldset>
+    <div class="form-buttons" >
+      <button class="btn btn-primary addShow-btn"
+          (click)="createShow()">Add Show</button>
+    </div>
+  </form>
+</div>
 
 <app-footer></app-footer>

@@ -24,10 +24,11 @@
 
                   <li> <a routerLink="/about">About</a> </li>
                   <li> <a routerLink="/concerts">Concerts </a> </li>
-                  <li> <a routerLink="/gallery">Listen</a> </li>
+                  <li> <a routerLink="/listen">Listen</a> </li>
                   <li> <a routerLink="/contact">Contact</a> </li>
 
-<!--                  <li > <a   routerLink="/contact">login</a> </li>-->
+                  <li *ngIf="!isLoggedIn"> <a   routerLink="/login">login</a> </li>
+                  <li *ngIf="isLoggedIn"> <a   (click)="logout()"  routerLink="/">logout</a> </li>
 <!--                  <li  > <a  class="last_manu" href="#"><img src="assets/images/search_icon.png" alt="#" /></a> </li>-->
 
                 </ul>

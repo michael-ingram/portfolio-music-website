@@ -1,0 +1,26 @@
+.concert-crud{
+  text-align: center;
+  color: #12cfe2;
+}
+
+legend{
+  margin-top: 10px;
+}
+
+.form-control{
+  margin-top: 5px;
+}
+
+label{
+  margin-top: 10px;
+}
+
+.addShow-btn{
+  margin-top: 30px;
+  background-color: #12cfe2 !important;
+}
+.delete-Btn{
+  margin-top: 5px;
+  background-color: #12cfe2 !important;
+  border-color: #12cfe2 !important;
+}

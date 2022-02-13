@@ -11,6 +11,11 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { LoaderComponent } from './loader/loader.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import {ConcertsService} from "./services/concerts.service";
+import { HttpClientModule} from "@angular/common/http";
+import {AuthService} from "./services/auth.service";
+import { LoginComponent } from './login/login.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,12 +28,15 @@ import { FooterComponent } from './footer/footer.component';
     LoaderComponent,
     HeaderComponent,
     FooterComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ConcertsService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
