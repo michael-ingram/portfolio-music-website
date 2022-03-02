@@ -124,7 +124,7 @@
          top: 0;
     }
 
- 
+
 
 
 
@@ -137,20 +137,20 @@
    padding-bottom: 6px;
      margin-top: 0px;
 }
-    
 
- 
+
+
  .carousel-control-next {right: 39%;}
  .carousel-control-prev {left:39%;}
 
 }
  @media (min-width: 992px) and (max-width: 1199px) {
       .mean-last {display: none !important;}
-    
+
     .main-menu ul > li a {
        padding: 9px 24px;
     }
-     
+
     .carousel-control-next {right: 38%;}
  .carousel-control-prev {left:38%;}
  .hover_box {width: 90.5%;}
@@ -176,7 +176,7 @@
 }
 
  @media (max-width: 767px) {
-   
+
  .mean-container .mean-bar { margin-top: 0px; }
   .titlepage h2 {line-height: 70px; font-size: 50px;}
   .box_text p {line-height: 30px;}
@@ -212,19 +212,19 @@
      .menu-area {float: inherit;}
      .header {
          padding-bottom: 0px;
-        
+
     }
      .logo {
     margin-top: 0px;
 }
-  
+
      .logo {
          text-align: center !important;
          width: 150px;
        margin: 0 auto;
-       padding-bottom: 20px;         
+       padding-bottom: 20px;
        float: inherit;
-     
+
     }
 .carousel-control-next,
 .carousel-control-prev {  width: 21%;}
@@ -247,8 +247,11 @@
     .news .newslatter {padding: 0px 10px; width: 64%;}
     .news {max-width: 100%;}
     .submit {max-width: 105px; padding: 0;}
-ul.loca li {margin-bottom: 20px;}
-ul.loca  {justify-content: left;}
+ul.loca li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+ul.loca  {justify-content: center;}
 
 .Gallery_text .titlepage {padding-top: 30px;}
 .heding h2 {font-size: 40px;}

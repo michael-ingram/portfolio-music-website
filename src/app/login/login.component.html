@@ -2,8 +2,7 @@
 <div class="login-modal">
 <form [formGroup]="form">
   <fieldset>
-    <legend>Login</legend>
-    <div  class="switch" (click)="switchLogin()">Switch to {{signUpOrLogin}}</div>
+    <legend>Admin Login</legend>
     <div class="form-field">
       <label class="email-label">Email:</label>
       <input name="email" formControlName="email" class="form-control email-input">
@@ -14,13 +13,9 @@
              type="password" class="form-control password-input">
     </div>
   </fieldset>
-  <div class="form-buttons" *ngIf="signUpOrLogin === 'Sign Up'">
+  <div class="form-buttons" >
     <button class="btn btn-primary login-btn"
             (click)="login()">Log In</button>
-  </div>
-  <div class="form-buttons" *ngIf="signUpOrLogin === 'Log In'">
-    <button class="btn btn-primary signup-btn"
-            (click)="signUp()">Sign Up</button>
   </div>
 </form>
 </div>
