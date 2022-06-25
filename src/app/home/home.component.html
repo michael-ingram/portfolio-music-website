@@ -28,8 +28,8 @@
                     <li> <a routerLink="/listen">Listen</a> </li>
                     <li> <a routerLink="/contact">Contact</a> </li>
 
-                    <li *ngIf="!isLoggedIn"> <a   routerLink="/login">login</a> </li>
-                    <li *ngIf="isLoggedIn"> <a   (click)="logout()"  routerLink="/">logout</a> </li>
+                    <li *ngIf="!isLoggedIn"> <a   routerLink="/login">Admin</a> </li>
+                    <li *ngIf="isLoggedIn"> <a   (click)="logout()"  routerLink="/">Logout</a> </li>
 <!--                    <li  > <a  class="last_manu" href="#"><img src="assets/images/search_icon.png" alt="#" /></a> </li>-->
 
                   </ul>
